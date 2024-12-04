@@ -1,0 +1,99 @@
+body{
+    background-color: grey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+}
+.container{
+    background-color: rgb(11,18,43);
+    height: 310px;
+    width: 1100px;
+    background-image: url(/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 1100px 300px;
+    padding-top: 220px;
+    background-position: bottom;
+}
+.main{
+
+}
+.fylo{
+    display: inline-block;
+    border: 2px white hidden;
+    width: 40%;
+    height: 150px;
+    border-top-right-radius: 80px;
+    color: white;
+    margin-top: -50px;
+    background-color: rgb(29,44,105) ;
+    
+}
+.fylo-img{
+    display: block;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    width: 110px;
+    height: 30px;
+    
+}
+.SVG-img{
+    background-color: rgb(15,19,51);
+    padding: 10px;
+    margin-right: 5px;
+    border: 10px hidden;
+    border-radius: 5px;
+
+
+}
+.bottom-svg{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+}
+.useage{
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    border:  hidden;
+    width: 500px;
+    height: 120px;
+    padding-top: 50px;
+    margin-top: -200px !important;
+    background-color: rgb(29,44,105);
+    border-radius: 10px;
+
+}
+.useage-text{
+    margin-bottom: 15px;
+}
+.progress-container{
+    width: 400px;
+      height: 15px;
+      background-color: #2e2e4d;
+      border-radius: 50px;
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+    }
+.progress-bar {
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(90deg, #ffa17f, #ff5e62);
+    border-radius: 50px;
+    position: relative;
+  }
+  .volume-1{
+    position: relative;
+    margin-top: 10px;
+  }
+  .left{
+    position: absolute;
+    left: 50px;
+  }
+  .right{
+    position: absolute;
+    right: 50px;
+  }
